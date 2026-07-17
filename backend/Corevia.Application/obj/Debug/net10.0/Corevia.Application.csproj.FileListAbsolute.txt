@@ -13,3 +13,4 @@ C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Application\obj\Debug\
 C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Application\obj\Debug\net10.0\refint\Corevia.Application.dll
 C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Application\obj\Debug\net10.0\Corevia.Application.pdb
 C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Application\obj\Debug\net10.0\ref\Corevia.Application.dll
+C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Application\obj\Debug\net10.0\Corevia.Application.sourcelink.json

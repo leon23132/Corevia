@@ -2,6 +2,7 @@ using Corevia.Shop.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using Corevia.Domain.Identity;
+using Corevia.Shop.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,8 +18,23 @@ builder.Services
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+
+builder.Services.AddScoped<ProductService>();
+
 builder.Services.AddOpenApi();
+
+// CORS HIER HIN
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendCors", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:5173")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 
 var app = builder.Build();
 
@@ -37,5 +53,5 @@ app.UseAuthorization();
 
 app.MapIdentityApi<ApplicationUser>();
 app.MapControllers();
-
+app.UseCors("FrontendCors");
 app.Run();

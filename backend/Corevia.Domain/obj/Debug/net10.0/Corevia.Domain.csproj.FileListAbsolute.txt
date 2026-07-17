@@ -10,3 +10,4 @@ C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Domain\obj\Debug\net10
 C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Domain\obj\Debug\net10.0\Corevia.Domain.pdb
 C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Domain\obj\Debug\net10.0\ref\Corevia.Domain.dll
 C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Domain\obj\Debug\net10.0\Corevia.Domain.csproj.AssemblyReference.cache
+C:\Users\leonb\OneDrive\MyCoeding\Corevia\backend\Corevia.Domain\obj\Debug\net10.0\Corevia.Domain.sourcelink.json
