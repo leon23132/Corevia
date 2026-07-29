@@ -22,6 +22,7 @@ export async function getProducts(
       PageSize: filters.pageSize,
     },
   });
+  
 
   return response.data.items;
 }

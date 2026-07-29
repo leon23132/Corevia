@@ -20,6 +20,7 @@ builder.Services
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<CategoryService>();
 
 builder.Services.AddOpenApi();
 

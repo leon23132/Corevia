@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Corevia.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff0e7006cd82d404dc5597c8679232e15e1a4bf0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6706e0ee710194fc9eeaa2581fe94101c3141ae6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Corevia.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Corevia.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
